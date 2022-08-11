@@ -66,8 +66,8 @@ async function foo() {
   console.log(result1.country[0].country_id);
 
 
-  content.innerHTML = `<b>1).First Possible Name of Country Based On Name : <span style="color: green">${result1.country[0].country_id}</span></b>`;
-  content1.innerHTML = `<b>2).Second Possible Name of Country Based On Name : <span style="color:green">${result1.country[1].country_id}</span></b>`;
+  content.innerHTML = `<b>1).First Possible ID of Country Based On Name : <span style="color: green">${result1.country[0].country_id}</span></b>`;
+  content1.innerHTML = `<b>2).Second Possible ID of Country Based On Name : <span style="color:green">${result1.country[1].country_id}</span></b>`;
   content2.innerHTML = `<b>3).First Probability value is : <span style="color:green">${result1.country[0].probability}</span></b>`;
   content3.innerHTML = `<b>4). Second Probability value is :<span style="color:green"> ${result1.country[1].probability}</span></b>`;
 }
